@@ -1,0 +1,74 @@
+<android.support.v7.widget.CardView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cv"
+    layout_height=""
+    app:cardUseCompatPadding="true"
+    app:cardElevation="2dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorCardView"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/foto_dispositivo"
+            android:layout_width="36dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="16dp"
+            android:src="@drawable/smartphone" />
+
+        <TextView
+            android:id="@+id/nombre_dispositivo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/foto_dispositivo"
+            android:text="Mi iPhone"
+            android:textSize="22sp" />
+
+        <TextView
+            android:id="@+id/modelo_dispositivo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nombre_dispositivo"
+            android:layout_toRightOf="@+id/foto_dispositivo"
+            android:text="iPhone" />
+
+
+        <ImageView
+            android:id="@+id/btnLocalizar"
+            android:layout_width="30dp"
+            android:layout_height="45dp"
+            android:layout_marginRight="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/btnFoto"
+            android:src="@drawable/locate_icon"
+            android:text="" />
+
+        <ImageView
+            android:id="@+id/btnFoto"
+            android:layout_width="23dp"
+            android:layout_height="45dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/delete_icon"
+            android:text="" />
+
+        <ImageView
+            android:id="@+id/btnGaleria"
+            android:layout_width="22dp"
+            android:layout_height="45dp"
+            android:layout_marginRight="32dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_menu_gallery"
+            android:text="" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

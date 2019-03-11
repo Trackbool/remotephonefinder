@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragments.FragmentAnyadirDispositivo">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50px"
+        android:layout_marginBottom="50px"
+        android:gravity="center"
+        android:padding="20px"
+        android:text="Nuevo dispositivo"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/editTextReferencia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30px"
+        android:ems="10"
+        android:hint="Código IMEI"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30px"
+        android:ems="10"
+        android:hint="Nombre"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextModelo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30px"
+        android:ems="10"
+        android:hint="Modelo"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnAnyadir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Añadir"
+        tools:text="Añadir" />
+
+    <TextView
+        android:id="@+id/textViewResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#f44242" />
+</LinearLayout>

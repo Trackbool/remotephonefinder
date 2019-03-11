@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:mapbox="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.LocalizacionActivity">
+
+    <com.mapbox.mapboxsdk.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        mapbox:mapbox_cameraZoom="10"
+        mapbox:mapbox_styleUrl="mapbox://styles/mapbox/satellite-streets-v9">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnEnfocar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Enfocar"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/textViewUltimaLocalizacion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:text="Última localización:"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/textViewFechaHora"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/white"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:visibility="gone" />
+
+            <ProgressBar
+                android:id="@+id/progressBarMapa"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+    </com.mapbox.mapboxsdk.maps.MapView>
+
+</LinearLayout>

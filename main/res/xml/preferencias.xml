@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Preferencias GPS">
+        <ListPreference
+            android:key="selectedTimeLapse"
+            android:title="Intervalo de tiempo"
+            android:summary="intervalo de tiempo entre mediciones"
+            android:dialogTitle="Selecciona un valor"
+            android:entries="@array/timeLapse"
+            android:entryValues="@array/timeLapseValue" />
+        <ListPreference
+            android:key="selectedminDistance"
+            android:title="Distancia mínima"
+            android:summary="intervalo en metros"
+            android:dialogTitle="Selecciona un valor"
+            android:entries="@array/minDistance"
+            android:entryValues="@array/minDistanceValue" />
+        <ListPreference
+            android:key="selectedZoom"
+            android:title="Zoom del mapa"
+            android:summary="Nivel de zoom inicial del mapa"
+            android:dialogTitle="Selecciona un valor"
+            android:entries="@array/zoom"
+            android:entryValues="@array/zoomValue" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Personalización">
+        <CheckBoxPreference
+            android:key="activeSound"
+            android:title="Activar sonidos"
+            android:summary="Acrivar sonidos de notificación"
+            android:dialogTitle="Activa o desactiva el sonido" />
+    </PreferenceCategory>
+</PreferenceScreen>

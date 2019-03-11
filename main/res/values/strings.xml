@@ -1,0 +1,72 @@
+<resources>
+    <string name="app_name">RemotePhoneFinder</string>
+    <string name="btn_acceder">Acceder</string>
+    <string name="login">Login</string>
+    <string name="title_activity_main">RemotePhoneFinder</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Preferencias</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ver_dispositivos">Ver Dispositivos</string>
+    <string name="anyadir_dispositivo">Añadir dispositivo</string>
+    <string name="tokenMapBox">MAPBOX_TOKEN</string>
+    <string name="localizar_dispositivo">Localizar Dispositivo</string>
+    <string name="ver_acciones">Ver acciones</string>
+    <string name="enviar_acciones">Enviar acciones</string>
+    <string name="enviar_ordenes">Enviar órdenes</string>
+
+    <string name="servicio_comprobar_login">http://www.domain.com/proyectoMultimedia/comprobar_login.php</string>
+    <string name="servicio_enviar_localizacion">http://www.domain.com/proyectoMultimedia/insertar_localizacion.php</string>
+    <string name="servicio_listar_acciones">http://www.domain.com/proyectoMultimedia/listar_acciones.php</string>
+    <string name="servicio_marcar_accion_resuelta">http://www.domain.com/proyectoMultimedia/marcar_accion_resuelta.php</string>
+    <string name="servicio_insertar_imagen">http://www.domain.com/proyectoMultimedia/insertar_imagen.php</string>
+    <string name="servicio_listar_coordenadas">http://www.domain.com/proyectoMultimedia/listar_coordenadas.php</string>
+    <string name="servicio_insertar_acciones">http://www.domain.com/proyectoMultimedia/insertar_acciones.php</string>
+    <string name="servicio_listar_dispositivos">http://www.domain.com/proyectoMultimedia/listar_dispositivos.php</string>
+    <string name="servicio_insertar_dispositivo">http://www.domain.com/proyectoMultimedia/insertar_dispositivo.php</string>
+    <string name="servicio_listar_imagenes">http://www.domain.com/proyectoMultimedia/listar_imagenes.php</string>
+    <string name="servicio_borrar_dispositivo">http://www.domain.com/proyectoMultimedia/borrar_dispositivo.php</string>
+
+    <string-array name="timeLapse">
+        <item>1,2 segundo</item>
+        <item>3 segundos</item>
+        <item>10 segundos</item>
+        <item>20 segundos</item>
+    </string-array>
+
+    <string-array name="timeLapseValue">
+        <item>1200</item>
+        <item>3000</item>
+        <item>10000</item>
+        <item>20000</item>
+    </string-array>
+
+    <string-array name="minDistance">
+        <item>0 metros</item>
+        <item>5 metros</item>
+        <item>10 metros</item>
+    </string-array>
+
+    <string-array name="minDistanceValue">
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+    </string-array>
+
+    <string-array name="zoom">
+        <item>5 metros</item>
+        <item>10 metros</item>
+        <item>15 metros</item>
+    </string-array>
+
+    <string-array name="zoomValue">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+    </string-array>
+</resources>
